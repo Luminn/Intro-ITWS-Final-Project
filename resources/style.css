@@ -8,6 +8,10 @@ body {
     background-color: gainsboro;
 }
 
+fieldset {
+    border-radius: 25px;
+}
+
 #loginBox{
     margin-top: -50px;
     margin-left: -25px;
@@ -15,6 +19,22 @@ body {
     padding: 5px;
     border-radius: 10px;
 }
+
+#gameLibrary {
+    margin-top: 25px;
+    padding: 10px;
+    background-color: #bbb;
+    border-radius: 10px;
+}
+
+#gameLibrary li{
+    list-style: none;
+}
+
+#gameLibrary a{
+    color: #444;
+}
+
 #menu{
     padding: 10px;
     background-color: grey;
@@ -54,7 +74,6 @@ body {
     margin-top: -50px;
 }
 
-
 .searchbar {
     float: right;
     margin-right: 10px
@@ -64,7 +83,9 @@ body {
     left: 50%;
     border-style: solid;
     border-color: black;
+    border-radius: 25px;
 }
+
 
 .button {
   cursor:pointer;
@@ -76,8 +97,9 @@ body {
 }
 
 .slideshowPicture {
-    height: 670px;
-    width: 670px;
+    margin: 20px;
+    height: 500px;
+    width: 500px;
 }
 
 .gameForm{
@@ -89,6 +111,7 @@ legend{
     font-size: 20px
 }
 .gameName{
+    margin-top: 5px;
     margin-bottom: 20px;
 }
 
