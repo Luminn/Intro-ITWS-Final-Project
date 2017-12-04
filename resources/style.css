@@ -100,10 +100,13 @@ fieldset {
   display: inline-block;
 }
 
+
 .slideshowPicture {
     margin: 20px;
     height: 500px;
     width: 500px;
+    margin-left: 37%;
+    display: none;
 }
 
 .gameForm{
