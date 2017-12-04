@@ -12,6 +12,10 @@ fieldset {
     border-radius: 25px;
 }
 
+.buttonSet {
+    text-align: center;
+}
+
 #loginBox{
     margin-top: -50px;
     margin-left: -25px;

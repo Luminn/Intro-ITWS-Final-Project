@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -6,7 +7,7 @@ function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
+function setSlide(n) {
   showSlides(slideIndex = n);
 }
 
