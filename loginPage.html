@@ -4,6 +4,7 @@
       <title>Upload</title>    
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <link rel="stylesheet" href="resources/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       <script type="text/javascript" src="resources/jquery-3.1.1.min.js"></script>
       <script type="text/javascript" src="resources/search.js"></script>
    </head>
@@ -13,16 +14,19 @@
          <li><a href = "index.html">Home</a></li>      
          <li><input class = "searchbar" type="text" placeholder="Search"></li>
       </ul>
-    
+    <div class = "centering">
     <div id = loginBox>
     <form action = "/login.php">
-       <label><b>Username</b></label>
-       <input type = "text" placeholder = "Enter Username" name = "username" required> <br>
-     
-       <label><b>Password</b></label>
-       <input type = "password" placeholder = "Enter Password" name = "password" required><br>
-        
+       <div class = uname>
+           <label><b>Username</b></label><br>
+           <input type = "text" placeholder = "Enter Username" name = "username" required> <br>
+       </div>
+       <div class = "pw">
+           <label><b>Password</b></label><br>
+           <input type = "password" placeholder = "Enter Password" name = "password" required><br>
+       </div>    
        <button type = "submit">Login</button>
     </form>
-    </div>  
+    </div> 
+    </div>
    </body>

@@ -1,24 +1,32 @@
-body {
-    background-color: gainsboro
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url("https://fonts.googleapis.com/css?family=Roboto")
 }
+
+body {
+    font-family: "Roboto";
+    background-color: gainsboro;
+}
+
 #loginBox{
-    border-style: solid;
-    border: 2px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-left: -100px;
     margin-top: -50px;
+    margin-left: -25px;
+    border: solid 2px;
+    padding: 5px;
+    border-radius: 10px;
 }
 #menu{
     padding: 10px;
     background-color: grey;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    margin-left: -10px
 }
 
 #menu li{
     display: inline;
-    padding-left: 10px
-    
+    padding-left: 10px 
 }
 
 #menu a{
@@ -29,8 +37,27 @@ body {
     color: black
 }
 
-.gameTitle {
-        
+.uname {
+    margin-bottom: 10px;
+    font-size: 30px
+}
+
+.pw {
+    font-size: 30px
+}
+
+.centering{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+}
+
+
+.searchbar {
+    float: right;
+    margin-right: 10px
 }
 
 .slideshow {
