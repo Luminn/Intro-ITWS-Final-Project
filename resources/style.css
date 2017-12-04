@@ -66,9 +66,23 @@ body {
     border-color: black;
 }
 
+.button {
+  cursor:pointer;
+  height:20px;
+  width: 20px;
+  margin: 4 20px;
+  background-color: #bbb;
+  display: inline-block;
+}
+
 .slideshowPicture {
     height: 670px;
     width: 670px;
+}
+
+.gameForm{
+    margin-left: -100px;
+    margin-top: -150px;
 }
 
 legend{
