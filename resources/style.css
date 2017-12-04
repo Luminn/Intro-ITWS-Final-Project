@@ -1,0 +1,64 @@
+body {
+    background-color: gainsboro
+}
+#loginBox{
+    border-style: solid;
+    border: 2px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+}
+#menu{
+    padding: 10px;
+    background-color: grey;
+}
+
+#menu li{
+    display: inline;
+    padding-left: 10px
+    
+}
+
+#menu a{
+    color: lightgray
+}
+
+#menu a visited{
+    color: black
+}
+
+.gameTitle {
+        
+}
+
+.slideshow {
+    left: 50%;
+    border-style: solid;
+    border-color: black;
+}
+
+.slideshowPicture {
+    height: 670px;
+    width: 670px;
+}
+
+legend{
+    font-size: 20px
+}
+.gameName{
+    margin-bottom: 20px;
+}
+
+.gameDescription{
+    margin-bottom: 20px;
+}
+
+.gameScreenshots{
+    margin-bottom: 20px;
+}
+
+.gameProper{
+    margin-bottom: 20px;
+}
