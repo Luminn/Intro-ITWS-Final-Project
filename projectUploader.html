@@ -16,29 +16,32 @@
       </ul>
         
        <div class = gameForm>
-       <form>
-       <Legend>Game Data</Legend>
-       <div class = "gameName">
-       Game Name:<br>
-           <input type = "text" name = "gameName" method = "post" id = "gameName"><br>
-       </div>
-           
-       <div class = "gameDescription">
-       Description:<br>
-           <textarea rows="4" cols="40" id = "gameDescription"></textarea><br>
-       </div>
-           
-       <div class = "gameScreenshots">
-       Screenshots (optional):<br>
-           <input type = "file" accepts = "image/*" method = "post" id = "gameScreenshots"><br>
-       </div>
-        
-       <div class = "gameProper">
-       Game:<br>
-           <input type = "file" method = "post" id = "gameProper"><br>
-        
-           <input type = submit value = "save">
-       </div>
+       <form id = "gameForm" method = "post" action="#" onsubmit="return validate(this);">
+       <fieldset>
+            <Legend>Game Data</Legend>
+
+           <div class = "gameName">
+           Game Name:<br>
+               <input type = "text" name = "gameName" id = "gameName"><br>
+           </div>
+
+           <div class = "gameDescription">
+           Description:<br>
+               <textarea rows="4" cols="40" id = "gameDescription"></textarea><br>
+           </div>
+
+           <div class = "gameScreenshots">
+           Screenshots (optional):<br>
+               <input type = "file" accepts = "image/*" id = "gameScreenshots"><br>
+           </div>
+
+           <div class = "gameProper">
+           Game:<br>
+               <input type = "file" id = "gameProper"><br>
+
+               <input type = submit value = "Submit Game">
+           </div>
+       </fieldset>
        </form>
        </div>
    </body>
