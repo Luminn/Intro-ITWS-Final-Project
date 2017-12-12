@@ -12,11 +12,23 @@ fieldset {
     border-radius: 25px;
 }
 
+#mainPageBox {
+    text-align: center;
+    border-radius: 25px;
+    border: solid 3px;
+    margin-top: 50px;
+    width: auto;
+}
+
+#mainPageBox a{
+    color: grey;
+}
+
 .buttonSet {
     text-align: center;
 }
 
-#loginBox{
+#loginBox {
     margin-top: -50px;
     margin-left: -25px;
     border: solid 2px;
@@ -76,6 +88,11 @@ fieldset {
     left: 50%;
     margin-left: -100px;
     margin-top: -50px;
+}
+
+button a{
+   color: black;
+   text-decoration: none;
 }
 
 .searchbar {
